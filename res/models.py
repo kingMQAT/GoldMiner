@@ -4,9 +4,9 @@ from dataclasses import dataclass, field
 
 @dataclass
 class Mine:
-    length: int = 10
-    width: int = 10
-    map: List[List[int]] = field(default_factory=list(list))
+    map: List[List[int]]
+    length: int
+    width: int
 
 
 @dataclass
